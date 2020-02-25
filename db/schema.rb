@@ -20,7 +20,11 @@ ActiveRecord::Schema.define(version: 2020_02_18_222511) do
     t.string "name"
   end
 
+<<<<<<< HEAD
   create_table "song_genres", force: :cascade do |t|
+=======
+  create_table "song_genre", force: :cascade do |t|
+>>>>>>> 1ef22ad7a9de31ce5e55c45207b1d671421836fc
     t.integer "song_id"
     t.integer "genre_id"
   end
